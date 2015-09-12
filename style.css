@@ -1,3 +1,7 @@
+body{
+	overflow:hidden;
+}
+
 .content {
 
 }
@@ -7,13 +11,13 @@
 	text-decoration: none;
 
 }
-#main_nav{
-	text-align: right;
-	text-decoration: none;
+.nav{
+	float: right;
+	margin: 7px 15px 0 0;
 }
 li{
 	display:inline;
-	text-decoration: none;
+	vertical-align:middle;
 }
 a{
 	text-decoration: none;
@@ -21,4 +25,27 @@ a{
 	font-family: arial;
 	font-size:13px;
 	padding:6px;
+}
+
+.bell {
+  background-image: url("../images/bell.png");
+  background-position: -69px -69px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.apps {
+  background-image: url("../images/grid.png");
+  background-position: -69px -854px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.share {
+  border-radius: 1px;
+  background-color: #F4F4F4;
+  padding: 7px 15px;
+  
 }

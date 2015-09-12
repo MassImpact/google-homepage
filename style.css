@@ -1,0 +1,24 @@
+.content {
+
+}
+.nav{
+	height:25px;
+	list-style-type: none;
+	text-decoration: none;
+
+}
+#main_nav{
+	text-align: right;
+	text-decoration: none;
+}
+li{
+	display:inline;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+	color:black;
+	font-family: arial;
+	font-size:13px;
+	padding:6px;
+}
